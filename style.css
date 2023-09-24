@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(./Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    gap: 15px;
+}
+
+.text{
+    max-width: 300px;
+    text-align: center;
+}
+
+h1,p{
+    margin-bottom: 5%;
+}
+
+p{
+    font-weight: 600;
+}
+
+button{
+    padding: 5px 30px;
+    color: rgb(166, 159, 159);
+    background-color: black;
+    border: none;
+}
+
+@media only screen and (max-width:670px){
+    .container{
+        flex-direction: column;
+    }
+}
